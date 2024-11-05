@@ -1,0 +1,29 @@
+{
+  "name": "racing-electron-app",
+  "version": "1.0.0",
+  "description": "\"For electric racing\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "print(\"Hello World\")",
+    "start": "electron . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoJacky/electric-racing-app.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "Jacky Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhaoJacky/electric-racing-app/issues"
+  },
+  "homepage": "https://github.com/ZhaoJacky/electric-racing-app#readme",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+
+}
+
+
