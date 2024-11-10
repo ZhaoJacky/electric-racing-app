@@ -14,8 +14,10 @@ const createWindow = () => {
   
     win.loadFile('index.html')
 
+// Reads the contents of the array into the display in the HTML file after the
+// website finishes loading.
     win.webContents.on('did-finish-load', () => {
-      const nameArray = ["Hi", "My", "Name", "Is", "Kyle"];
+      const nameArray = ["Display for Velocity"];
       var data = "";
       for(let i = 0; i < nameArray.length; i++) {
         data = nameArray[i];
